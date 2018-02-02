@@ -8,6 +8,7 @@
 		function load () {
 			qreader.scan().then(function (res) {
 				txt.value = res;
+				console.log(JSON.stringify(res));
 			});
 		}
 		module.exports = {
